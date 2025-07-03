@@ -3,7 +3,7 @@ import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
-import { LogoCloud } from '@/components/logo-cloud'
+
 import { LogoCluster } from '@/components/logo-cluster'
 import { LogoTimeline } from '@/components/logo-timeline'
 import { LinkedAvatars } from '@/components/linked-avatars'
@@ -163,7 +163,7 @@ export default function Home() {
       <Hero />
       <main>
         <Container className="mt-10">
-          <LogoCloud />
+
         </Container>
         <div className="bg-linear-to-b from-white from-50% to-gray-100 py-32">
           <FeatureSection />
