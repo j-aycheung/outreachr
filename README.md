@@ -1,1 +1,1 @@
-Outreach
+Cold outreach, made simple.
