@@ -74,30 +74,66 @@ function MainFeatures() {
           eyebrow="Search"
           title="Find the right contacts"
           description="Quickly find recruiters and hiring managers using our smart search link generator for LinkedIn and Twitter."
+          graphic={
+            <img
+              src="/screenshots/app.png"
+              alt="Search feature screenshot"
+              className="h-full w-full object-cover"
+            />
+          }
           className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
         />
+
         <BentoCard
           eyebrow="Templates"
           title="Professional templates"
           description="Choose from our library of proven outreach templates that get responses. Automatically personalized with company and role details."
+          graphic={
+            <img
+              src="/screenshots/app.png"
+              alt="Search feature screenshot"
+              className="h-full w-full object-cover"
+            />
+          }
           className="lg:col-span-3 lg:rounded-tr-4xl"
         />
         <BentoCard
           eyebrow="Gmail"
           title="Send with one click"
           description="Send your outreach emails directly through Gmail with a single click. Track opens and responses right from the app."
+          graphic={
+            <img
+              src="/screenshots/app.png"
+              alt="Search feature screenshot"
+              className="h-full w-full object-cover"
+            />
+          }
           className="lg:col-span-2 lg:rounded-bl-4xl"
         />
         <BentoCard
           eyebrow="Tracking"
           title="Stay organized"
           description="Keep track of all your outreach efforts, follow-ups, and responses in one place."
+          graphic={
+            <img
+              src="/screenshots/app.png"
+              alt="Search feature screenshot"
+              className="h-full w-full object-cover"
+            />
+          }
           className="lg:col-span-2"
         />
         <BentoCard
           eyebrow="Results"
           title="Get more responses"
           description="Our users report 3x higher response rates using Outreachr's targeted approach and templates."
+          graphic={
+            <img
+              src="/screenshots/app.png"
+              alt="Search feature screenshot"
+              className="h-full w-full object-cover"
+            />
+          }
           className="max-lg:rounded-b-4xl lg:col-span-2 lg:rounded-br-4xl"
         />
       </div>
