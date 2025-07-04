@@ -4,12 +4,11 @@ import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
 
+import { LinkedAvatars } from '@/components/linked-avatars'
 import { LogoCluster } from '@/components/logo-cluster'
 import { LogoTimeline } from '@/components/logo-timeline'
-import { LinkedAvatars } from '@/components/linked-avatars'
 import { Navbar } from '@/components/navbar'
 import { Screenshot } from '@/components/screenshot'
-import { Testimonials } from '@/components/testimonials'
 import { Heading, Subheading } from '@/components/text'
 
 export const metadata = {
@@ -24,6 +23,15 @@ function Hero() {
       <Container className="relative">
         <Navbar />
         <div className="pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-48">
+          {/* Product Title */}
+          <div className="flex justify-center">
+            <h1
+              className="font-tektur mb-16 text-center text-[clamp(4rem,12vw,8rem)] leading-none font-black text-gray-900"
+              style={{ fontFamily: 'Tektur, sans-serif' }}
+            >
+              Outreachr
+            </h1>
+          </div>
           <h1 className="font-display text-6xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[0.8] md:text-9xl/[0.8]">
             Reach the right people.
           </h1>
@@ -198,9 +206,7 @@ export default function Home() {
     <div className="overflow-hidden">
       <Hero />
       <main>
-        <Container className="mt-10">
-
-        </Container>
+        <Container className="mt-10"></Container>
         <div className="bg-linear-to-b from-white from-50% to-gray-100 py-32">
           <FeatureSection />
           <MainFeatures />
