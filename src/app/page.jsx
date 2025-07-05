@@ -40,7 +40,7 @@ function Hero() {
             companies using smart outreach templates.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
-            <Button href="#">Sign in with Google</Button>
+            <Button href="/dashboard">Get Started</Button>
             <Button variant="secondary" href="/pricing">
               Learn more
             </Button>
